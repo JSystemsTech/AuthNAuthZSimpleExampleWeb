@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthNAuthZSimpleExampleWeb", "AuthNAuthZSimpleExampleWeb\AuthNAuthZSimpleExampleWeb.csproj", "{2ECE000E-E671-4B99-AA7E-913EC0B4A6AD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AuthNAuthZ", "AuthNAuthZ\AuthNAuthZ.shproj", "{0435A128-2B64-442E-B0C6-26A3720BE1DA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AuthNAuthZ\AuthNAuthZ.projitems*{0435a128-2b64-442e-b0c6-26a3720be1da}*SharedItemsImports = 13
+		AuthNAuthZ\AuthNAuthZ.projitems*{2ece000e-e671-4b99-aa7e-913ec0b4a6ad}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECE000E-E671-4B99-AA7E-913EC0B4A6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECE000E-E671-4B99-AA7E-913EC0B4A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECE000E-E671-4B99-AA7E-913EC0B4A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECE000E-E671-4B99-AA7E-913EC0B4A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E0E0AF-C40F-4846-A877-17D3E5043AB5}
+	EndGlobalSection
+EndGlobal
